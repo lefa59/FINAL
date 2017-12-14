@@ -1,0 +1,103 @@
+@@charset "UTF-8";
+@font-face {
+  font-family: 'Courier';
+}
+body, header, nav, main, footer, ul, li, img p{
+  display: block;
+  box-sizing: border-box;
+}
+html {
+  background-image: url(Candy.jpg);
+}
+
+header  {
+  display: block;
+  float: left;
+}
+header > img {
+  /*clear: left;*/
+  display: block;
+  /*float: left;*/
+  height: 65%;
+  width: 100%;
+}
+
+
+nav {
+  display: block;
+  background-color: #fcbde6;
+  height: 20px;
+
+}
+nav ul{
+  width: 100%;
+margin:auto;
+
+}
+
+nav a:link, nav a:visited{
+  float: left;
+  text-align: center;
+  color: #ddfffb;
+  width: 30%;
+}
+nav a:hover, nav a:active {
+  color: White;
+}
+
+
+
+
+body {
+  background-image: url(BackGroundIMG.png);
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body > img.resize {
+  width: 200px;
+  height: 40px;
+
+}
+
+h1 {
+  /*font*/
+  font-size: 500%;
+  text-align: center;
+  margin-bottom: auto;
+  color: white;
+}
+h2 {
+  /*font:*/
+  font-size: 200%;
+  text-align: center;
+  padding-left: 15px;
+  color: #00c0ff;
+}
+h3 {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
+p {
+  /*font:*/
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  color: #ac69f8;
+}
+footer {
+  clear: left;
+    background-color: #fcbde6;
+    line-height: 30px;
+    text-align: center;
+    color: #ddfffb;
+}
+
+footer::after {
+  clear: both;
+  content: ""
+  display: table;
+}
