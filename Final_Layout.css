@@ -26,7 +26,7 @@ header > img {
 nav {
   display: block;
   background-color: #fcbde6;
-  height: 20px;
+  height: 40px;
 
 }
 nav ul{
@@ -36,6 +36,7 @@ margin:auto;
 }
 
 nav a:link, nav a:visited{
+  font-size: 30px;
   float: left;
   text-align: center;
   color: #ddfffb;
